@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BS5 Flex</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<header class="bg-info p-3 text-center">
+			<h1>Bootstrap5 display flex practicing</h1>
+			<p>
+				The biggest difference between Bootstrap 3 and Bootstrap 4 & 5 is that
+				Bootstrap 5 now uses flexbox, instead of floats, to handle the layout.
+				The Flexible Box Layout Module, makes it easier to design flexible
+				responsive layout structure without using float or positioning.
+			</p>
+			<p>
+				বুটস্ট্র্যাপ 3 এবং বুটস্ট্র্যাপ 4 এবং 5 এর মধ্যে সবচেয়ে বড় পার্থক্য হল
+				যে বুটস্ট্র্যাপ 5 এখন লেআউট পরিচালনা করতে ফ্লোটের পরিবর্তে ফ্লেক্সবক্স
+				ব্যবহার করে। নমনীয় বক্স লেআউট মডিউল, ফ্লোট বা অবস্থান ব্যবহার না করে
+				নমনীয় প্রতিক্রিয়াশীল লেআউট কাঠামো ডিজাইন করা সহজ করে তোলে।
+			</p>
+		</header>
+
+		<div class="container mt-5">
+			<!-- display block flex -->
+			<h4>>D-Block Flex</h4>
+			<div class="d-flex">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+			<br />
+			<!-- display inline flex -->
+			<h4>>D-Inline Flex</h4>
+			<div class="d-inline-flex">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+			<p></p>
+			<br />
+			<!-- horizontal direction -->
+			<h4>>Horizontal Direction</h4>
+			<div class="d-flex flex-row">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+			<br />
+			<!-- reverse direction -->
+			<h4 style="width: 330px" class="ms-auto">
+				>Horizontal Reverse Direction
+			</h4>
+
+			<div class="d-flex flex-row-reverse">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+			<br />
+			<!-- vertical-direction -->
+			<h4>>Vertical Direction</h4>
+			<div class="d-flex flex-column">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+			<br />
+			<!-- Vertical Direction Reverse -->
+			<h4>>Vertical Direction Reverse</h4>
+			<div class="d-flex flex-column-reverse">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+			<br />
+
+			<!-- justify content -->
+			<h4>>Justify Content Start</h4>
+			<div class="d-flex justify-content-start">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+
+			<h4 style="width: 235px" class="ms-auto">>Justify Content End</h4>
+			<div class="d-flex justify-content-end">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+			<br /><br />
+			<h4 class="text-center">>Justify Content Center</h4>
+			<div class="d-flex justify-content-center">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+			<br /><br />
+			<h4>>Justify Content Between</h4>
+			<div class="d-flex justify-content-between bg-dark">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+			<br /><br />
+
+			<h4>>Justify Content Around</h4>
+			<div class="d-flex bg-dark justify-content-around">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+			<br /><br />
+			<!-- flex-fill -->
+			<h4>>flex fill /width fill</h4>
+			<div class="d-flex">
+				<div class="bg-danger me-1 p-2 flex-fill">Flex item 1</div>
+				<div class="bg-warning me-1 p-2 flex-fill">Flex item 2</div>
+				<div class="bg-primary me-1 p-2 flex-fill">Flex item 3</div>
+			</div>
+			<br /><br />
+
+			<!-- flex-grow -->
+			<h4>>flex grow</h4>
+			<div class="d-flex">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2 flex-grow-1">Flex item 3</div>
+			</div>
+			<br /><br />
+			<!-- flex order -->
+			<h4>>flex order</h4>
+			<div class="d-flex">
+				<div class="bg-danger me-1 p-2 order-3">Flex item 1</div>
+				<div class="bg-warning me-1 p-2 order-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2 order-1">Flex item 3</div>
+			</div>
+			<br /><br />
+
+			<!-- flex auto margins -->
+			<h4 style="width: 46%" class="ms-auto">
+				>Flex Auto Margins <span class="text-danger">.ms-auto</span> (push items
+				to the right)
+			</h4>
+			<div class="d-flex">
+				<div class="bg-danger me-1 p-2 ms-auto">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+			<br /><br />
+
+			<h4>
+				>Flex Auto Margins <span class="text-danger">.me-auto</span> (push items
+				to the left)
+			</h4>
+			<div class="d-flex">
+				<div class="bg-danger me-1 p-2">Flex item 1</div>
+				<div class="bg-warning me-1 p-2">Flex item 2</div>
+				<div class="bg-primary me-1 p-2">Flex item 3</div>
+			</div>
+			<br /><br />
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
